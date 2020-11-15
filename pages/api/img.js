@@ -8,7 +8,7 @@ module.exports = (req, res) => {
   let element = jsonData[Math.floor(Math.random() * jsonData.length)];
   textToImage.generate(`"${element.quote}"\n-- ${element.source} by ${element.author}`, {
     width: 720,
-    fontFamily: 'DejaVu Sans'
+    fontFamily: 'Liberation Sans'
   }).then(function (dataUri) {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'application/json');
