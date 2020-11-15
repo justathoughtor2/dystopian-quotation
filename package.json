@@ -8,8 +8,12 @@
     "start": "next start"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "konva": "^7.1.4",
     "next": "10.0.1",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-konva": "^17.0.0-0",
+    "text-to-image": "^2.4.4"
   }
 }
