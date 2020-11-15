@@ -1,7 +1,7 @@
 {
   "name": "dystopian-quotation",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,12 +9,9 @@
     "vercel-build": "yum install libuuid-devel libmount-devel liberation-sans-fonts && cp /lib64/{libuuid,libmount,libblkid}.so.1 node_modules/canvas/build/Release/ && npm run build"
   },
   "dependencies": {
-    "cors": "^2.8.5",
-    "konva": "^7.1.4",
     "next": "10.0.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "react-konva": "^17.0.0-0",
-    "text-to-image": "^2.4.4"
+    "text2png": "^2.3.0"
   }
 }
