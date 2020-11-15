@@ -8,7 +8,7 @@ const Home = ({ quote }) => {
   );
 };
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const res = await fetch('https://dystopian-quotation.vercel.app/api/img');
   const quote = await res.json();
 
